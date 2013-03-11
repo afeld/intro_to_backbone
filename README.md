@@ -19,6 +19,10 @@ Aidan Feldman
 
 !SLIDE
 
+# What is Backbone?
+
+!SLIDE
+
 # Why Backbone vs. jQuery?
 
 !SLIDE incremental
@@ -76,6 +80,10 @@ Aidan Feldman
     * priority selector
     * order/filter by priority
 * docs: [backbonejs.org](http://backbonejs.org/) and [underscorejs.org](http://underscorejs.org/)
+
+!SLIDE
+
+# Take-aways?
 
 !SLIDE incremental
 
