@@ -19,11 +19,11 @@ Aidan Feldman
 
 !SLIDE
 
-# Why Backbone vs. jQuery only?
+# Why Backbone vs. jQuery?
 
 !SLIDE incremental
 
-# Why Backbone vs. jQuery only?
+# Why Backbone vs. jQuery?
 
 ## Code organization
 
@@ -47,6 +47,18 @@ Aidan Feldman
 * Initialize sub-Views
     * Bind to events on Models/Collections
     * Bind between Views
+
+!SLIDE
+
+# Backbone Pieces
+
+* [View](http://backbonejs.org/#View)
+* [Model](http://backbonejs.org/#Model)
+* [Collection](http://backbonejs.org/#Collection)
+
+!SLIDE
+
+# [Todos](https://github.com/afeld/intro_to_backbone/tree/master/todos) Walkthrough
 
 !SLIDE incremental
 
