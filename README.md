@@ -79,9 +79,7 @@ Aidan Feldman
 
 !SLIDE incremental
 
-# Why Backbone vs. X?
-
-([TodoMVC](http://addyosmani.github.com/todomvc/) options)
+# Why Backbone vs. [[TodoMVC](http://addyosmani.github.com/todomvc/) option]?
 
 * easy to get set up
 * easy to use pieces (both ways)
