@@ -162,8 +162,7 @@ $(function(){
     // Delegated events for creating new items, and clearing completed ones.
     events: {
       "keypress #new-todo":  "createOnEnter",
-      "click #clear-completed": "clearCompleted",
-      "click #toggle-all": "toggleAllComplete"
+      "click #clear-completed": "clearCompleted"
     },
 
     // At initialization we bind to the relevant events on the `Todos`
@@ -172,7 +171,6 @@ $(function(){
     initialize: function() {
 
       this.input = this.$("#new-todo");
-      this.allCheckbox = this.$("#toggle-all")[0];
 
       this.listenTo(Todos, 'add', this.addOne);
       this.listenTo(Todos, 'reset', this.addAll);
@@ -198,8 +196,6 @@ $(function(){
         this.main.hide();
         this.footer.hide();
       }
-
-      this.allCheckbox.checked = !remaining;
     },
 
     // Add a single todo item to the list by creating a view for it, and
@@ -228,11 +224,6 @@ $(function(){
     clearCompleted: function() {
       _.invoke(Todos.done(), 'destroy');
       return false;
-    },
-
-    toggleAllComplete: function () {
-      var done = this.allCheckbox.checked;
-      Todos.each(function (todo) { todo.save({'done': done}); });
     }
 
   });

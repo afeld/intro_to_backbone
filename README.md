@@ -71,10 +71,9 @@ Aidan Feldman
 
 # Play time!
 
-## Docs:
-
-* [underscorejs.org](http://underscorejs.org/)
-* [backbonejs.org](http://backbonejs.org/)
+* Tasks
+    * "Mark all as complete"
+* Docs: [backbonejs.org](http://backbonejs.org/) and [underscorejs.org](http://underscorejs.org/)
 
 !SLIDE incremental
 
