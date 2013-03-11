@@ -15,10 +15,10 @@ pre.sh_sourceCode {
   line-height: 1.5em;
 }
 
-
 h2 {
   padding-left: 40px;
   font-weight: bold;
+  text-align: left;
 }
 
 a {
@@ -27,4 +27,8 @@ a {
 
 .slide {
   padding-bottom: 6em;
+}
+
+.content > p {
+  font-size: 48px;
 }
