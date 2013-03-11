@@ -6,6 +6,8 @@ Aidan Feldman
 
 [github.com/afeld/intro\_to\_backbone](https://github.com/afeld/intro_to_backbone)
 
+[![ZIP download](zip.png)](https://github.com/afeld/intro_to_backbone/archive/master.zip)
+
 !SLIDE
 
 # moi
