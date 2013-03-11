@@ -25,14 +25,14 @@ Aidan Feldman
 
 # Why Backbone vs. jQuery?
 
-## Code organization
+## code organization
 
-* Useful abstractions
+* useful abstractions
     * Models & Collections
-    * Perisistence over REST
-* Encourage modularity
+    * perisistence over REST
+* encourage modularity
     * Views
-* Client-side routing
+* client-side routing
 
 !SLIDE incremental
 
@@ -40,13 +40,13 @@ Aidan Feldman
 
 (over-generalized)
 
-* Initialize base "class"
+* initialize base "class"
     * think Java's `public static void main()`
     * usually a View
-* Load data (`<script>` or AJAX) into Models/Collections
-* Initialize sub-Views
-    * Bind to events on Models/Collections
-    * Bind between Views
+* load data (`<script>` or AJAX) into Models/Collections
+* initialize sub-Views
+    * bind to events on Models/Collections
+    * bind between Views
 
 !SLIDE
 
@@ -65,15 +65,17 @@ Aidan Feldman
 # What is [Underscore.js](http://underscorejs.org/)?
 
 * Backbone's only dependency, besides jQuery\*
-* The "Standard Library" JS Never Had
+* the "Standard Library" JS never had
 
 !SLIDE
 
 # Play time!
 
-* Tasks
-    * "Mark all as complete"
-* Docs: [backbonejs.org](http://backbonejs.org/) and [underscorejs.org](http://underscorejs.org/)
+* tasks:
+    * "mark all as complete" (solution [here](https://github.com/documentcloud/backbone/tree/0.9.10/examples/todos))
+    * priority selector
+    * order/filter by priority
+* docs: [backbonejs.org](http://backbonejs.org/) and [underscorejs.org](http://underscorejs.org/)
 
 !SLIDE incremental
 
@@ -81,9 +83,9 @@ Aidan Feldman
 
 ([TodoMVC](http://addyosmani.github.com/todomvc/) options)
 
-* Easy to get set up
-* Easy to use pieces (both ways)
-* [Easy to understand](http://backbonejs.org/docs/backbone.html)
+* easy to get set up
+* easy to use pieces (both ways)
+* [easy to understand](http://backbonejs.org/docs/backbone.html)
 
 !SLIDE incremental
 
@@ -91,7 +93,11 @@ Aidan Feldman
 
 !SLIDE
 
-## Y'all get a free copy of *Developing a Backbone.js Edge*
+## y'all get a free copy of *Developing a Backbone.js Edge*
+
+!SLIDE
+
+# Questions?
 
 !SLIDE
 
