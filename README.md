@@ -38,7 +38,7 @@ Aidan Feldman
 
 # Structure of a Backbone app
 
-(over-generalized)
+## (over-generalized)
 
 * initialize base "class"
     * think Java's `public static void main()`
