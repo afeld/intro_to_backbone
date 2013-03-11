@@ -13,7 +13,8 @@ Aidan Feldman
 # moi
 
 * Senõr Web Developer, [Jux](https://jux.com)
-* Instructor, [General Assembly](https://generalassemb.ly/) and [NYU](http://scps.nyu.edu/)
+* Instructor, [General Assembly](https://generalassemb.ly/) and [NYU](http://scps.nyu.edu/content/scps/faculty/faculty-profile.html?id=14293)
+* [Sometime Backbone.js contributor](https://github.com/documentcloud/backbone/contributors)
 * Author, *[Developing a Backbone.js Edge](http://bleedingedgepress.com/our-books/)* (more on that later)
 
 !SLIDE
@@ -27,10 +28,32 @@ Aidan Feldman
 ## Code organization
 
 * Useful abstractions
-    * Models
+    * Models & Collections
     * Perisistence over REST
 * Encourage modularity
     * Views
+* Client-side routing
+
+!SLIDE incremental
+
+# Structure of a Backbone app
+
+(over-generalized)
+
+* Initialize base "class"
+    * think Java's `public static void main()`
+    * usually a View
+* Load data (`<script>` or AJAX) into Models/Collections
+* Initialize sub-Views
+    * Bind to events on Models/Collections
+    * Bind between Views
+
+!SLIDE incremental
+
+# What is [Underscore.js](http://underscorejs.org/)?
+
+* Backbone's only dependency, besides jQuery\*
+* The "Standard Library" JS Never Had
 
 !SLIDE
 
