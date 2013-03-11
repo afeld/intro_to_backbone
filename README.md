@@ -93,6 +93,10 @@ Aidan Feldman
 
 ## y'all get a free copy of *Developing a Backbone.js Edge*
 
+Leave comment here saying you attended:
+
+[BleedingEdgePress.com/contact-us](http://bleedingedgepress.com/contact-us/)
+
 !SLIDE
 
 # Questions?
