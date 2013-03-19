@@ -2,6 +2,8 @@
 
 # Intro to Backbone.js
 
+[NYC Tech Skillshares](http://www.meetup.com/NYC-Tech-Skillshares/events/105257562/)
+
 Aidan Feldman
 
 [github.com/afeld/intro\_to\_backbone](https://github.com/afeld/intro_to_backbone)
